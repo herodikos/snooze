@@ -6,7 +6,8 @@
     "scheduled",
     "notifications",
     "snooze",
-    "delayed notifications"
+    "delayed notifications",
+    "mongodb"
   ],
   "type": "library",
   "authors": [
@@ -16,8 +17,10 @@
     }
   ],
   "require": {
-    "php": ">=7.2.5",
-    "illuminate/support": "~6.0 || ~7.0 || ~8.0"
+    "php": "^7.4",
+    "ext-mongodb": "*",
+    "jenssegers/mongodb": "3.7.* || 3.8.*",
+    "illuminate/support": "~7.0 || ~8.0"
   },
   "require-dev": {
     "orchestra/testbench": "~4.0|| ~5.0 || ~6.0",

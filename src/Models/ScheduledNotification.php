@@ -3,7 +3,7 @@
 namespace Thomasjohnkane\Snooze\Models;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Thomasjohnkane\Snooze\Events\NotificationInterrupted;
 use Thomasjohnkane\Snooze\Events\NotificationSent;
 use Thomasjohnkane\Snooze\Exception\NotificationAlreadySentException;
